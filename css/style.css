@@ -15,9 +15,16 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 450px;
 }
-
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+  background-color: black;
+}
 /*header*/
 .intestazione{
   display: flex;
@@ -25,8 +32,10 @@ header{
   align-items: center;
   width: 800px;
   height: 40px;
-  background-color: #DAA520;
   padding: 0 15px;
+  border: 1px dashed black ;
+  background-color: #DAA520;
+
 }
 
 .menu ul{
@@ -45,13 +54,13 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
   background-color: #00008B;
-  height: 450px;
 }
 .jumbotron{
-  background-color: #EE82EE;
   width: 600px;
   height: 75%;
+  background-color: #EE82EE;
 }
 
 /*Main*/
@@ -68,20 +77,20 @@ header{
   height: 75%;
 }
 .immagine{
-  height: 100%;
   width: 70%;
+  height: 100%;
   background-color: #1E90FF;
 }
 .text{
-  height: 100%;
   width: 30%;
+  height: 100%;
   background-color: #FFC0CB;
 }
 .last-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 550px;
   background-color: lightgrey;
 }
 .content{
@@ -89,4 +98,37 @@ header{
   width: 800px;
   height: 75%;
   background-color: green;
+}
+/*footer*/
+.azioni{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 70%;
+  padding: 5px 0 15px 0;
+}
+.social{
+  flex-grow: 1;
+  height: 100%;
+  background-color: #F08080;
+}
+.colonne{
+  display: flex;
+  justify-content: space-around;  
+  flex-grow: 2;
+  height: 100%;
+  background-color: #20B2AA;
+}
+.container-registrazione{
+  height: 30%;
+  padding-top: 10px;
+  border-top: 1px solid white;
+}
+.registrazione{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  background-color: #7FFFD4;
 }
