@@ -13,12 +13,9 @@ header, footer, .container, .menu, .jumbo, .last-container, .azioni{
   justify-content: center;
   align-items: center;
 }
-.container{
-  height: 450px;
-}
 footer{
   flex-wrap: wrap;
-  height: 400px;
+  height: 460px;
   background-color: black;
 }
 /*HEADERr*/
@@ -30,10 +27,10 @@ footer{
   height: 40px;
   margin: 10px 0;
   padding: 0 15px;
-  border: 1.5px dashed black ;
+  border: 1.5px dashed black;
   background-color: #DAA520;
 }
-.logo{
+.intestazione .logo{
   display: flex;
   align-items: center;
   width: 25%;
@@ -54,7 +51,6 @@ footer{
 }
 .menu ul li a{
   text-decoration: none;
-  text-transform: uppercase;
   color: black;
 }
 /*bottone login*/
@@ -66,16 +62,19 @@ footer{
 .jumbo{
   width: 100%;
   height: 400px;
-  background-color: #00008B;
   margin-bottom: 2px;
+  background-color: #00008B;
 }
 .jumbotron{
   width: 600px;
-  height: 80%;
+  height: 350px;
   border: 1.5px dashed black ;
   background-color: #EE82EE;
 }
 /*MAIN*/
+.container{
+  height: 450px;
+}
 .container.bianco{
   background-color: white;
 }
@@ -86,38 +85,37 @@ footer{
   display: flex;
   justify-content: space-between;
   width: 800px;
-  height: 75%;
+  height: 400px;
 }
 .immagine{
-  width: 70%;
+  width: 60%;
   height: 100%;
   border: 1.5px dashed black ;
   background-color: #1E90FF;
 }
 .text{
-  width: 30%;
+  width: 40%;
   height: 100%;
   border: 1.5px dashed black ;
   background-color: #FFC0CB;
 }
 
 .last-container{
-  height: 550px;
+  height: 650px;
   background-color: lightgrey;
 }
 .content{
   display: flex;
   width: 800px;
-  height: 75%;
+  height: 600px;
   border: 1.5px dashed black ;
   background-color: green;
 }
-
 /*FOOTER*/
 /*parte alta*/
 .azioni{
   width: 800px;
-  height: 80%;
+  height: 400px;
   padding: 5px 0 15px 0;
 }
 .social{
@@ -141,7 +139,7 @@ footer{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 20%;
+  height: 60px;
   padding-top: 10px;
   border-top: 1px solid white;
 }
