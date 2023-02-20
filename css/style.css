@@ -3,3 +3,90 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  background-color: #ADD8E6;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+/*header*/
+.intestazione{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 40px;
+  background-color: #DAA520;
+  padding: 0 15px;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li{
+  margin-right: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container-jumbo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00008B;
+  height: 450px;
+}
+.jumbotron{
+  background-color: #EE82EE;
+  width: 600px;
+  height: 75%;
+}
+
+/*Main*/
+.container.bianco{
+  background-color: white;
+}
+.container.grigio{
+  background-color: lightgrey;
+}
+.paragrafo{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 75%;
+}
+.immagine{
+  height: 100%;
+  width: 70%;
+  background-color: #1E90FF;
+}
+.text{
+  height: 100%;
+  width: 30%;
+  background-color: #FFC0CB;
+}
+.last-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: lightgrey;
+}
+.content{
+  display: flex;
+  width: 800px;
+  height: 75%;
+  background-color: green;
+}
